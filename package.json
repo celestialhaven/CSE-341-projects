@@ -1,0 +1,20 @@
+{
+  "name": "cse-341-projects",
+  "version": "1.0.0",
+  "description": "My first CSE341 Project",
+  "homepage": "https://github.com/celestialhaven/CSE-341-projects#readme",
+  "bugs": {
+    "url": "https://github.com/celestialhaven/CSE-341-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celestialhaven/CSE-341-projects.git"
+  },
+  "license": "ISC",
+  "author": "Jones Mabala",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
