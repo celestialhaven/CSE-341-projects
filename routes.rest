@@ -1,0 +1,32 @@
+GET http://localhost:3000/contacts
+###
+
+GET http://localhost:3000/contacts/6a4e809050da950c55ca8b2e
+
+###
+
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@domain.com",
+    "favoriteColor": "Pink",
+    "birthday": "1990-01-01"
+}
+
+###
+PUT http://localhost:3000/contacts/6a4e809050da950c55ca8b2e HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jones",
+    "lastName": "Mabala",
+    "email": "jonzmabz01@domain.com",
+    "favoriteColor": "Navy Blue",
+    "birthday": "1992-11-06"
+}
+
+###
+DELETE http://localhost:3000/contacts/6a524f77dc40c19dde7f8ba4 HTTP/1.1
