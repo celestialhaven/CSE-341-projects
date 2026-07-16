@@ -9,11 +9,11 @@ POST http://localhost:3000/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@domain.com",
-    "favoriteColor": "Pink",
-    "birthday": "1990-01-01"
+    "firstName": "Jones",
+    "lastName": "Mabala",
+    "email": "jonzmabz01.com",
+    "favoriteColor": "Navy Blue",
+    "birthday": "1992-06-11"
 }
 
 ###
@@ -23,7 +23,7 @@ content-type: application/json
 {
     "firstName": "Jones",
     "lastName": "Mabala",
-    "email": "jonzmabz01@domain.com",
+    "email": "jonzmabz04@domain.com",
     "favoriteColor": "Navy Blue",
     "birthday": "1992-11-06"
 }
