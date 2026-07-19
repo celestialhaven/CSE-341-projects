@@ -5,10 +5,10 @@
     "description": "User Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse-341-projects-mf8w.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
